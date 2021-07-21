@@ -51,7 +51,7 @@ export function TaskList() {
           <form onSubmit={handleCreateNewTask}>
             <input 
               type="text" 
-              placeholder="Add new todo" 
+              placeholder="Adicionar novo todo" 
               onChange={(e) => setNewTaskTitle(e.target.value)}
               value={newTaskTitle}
             />
